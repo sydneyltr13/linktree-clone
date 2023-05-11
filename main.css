@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: white;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color:#ebd0f4
+}
+
+.bio {
+    text-align: center;
+}
